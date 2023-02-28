@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+
+}
+nav{
+    margin: 20px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 20px;
+    align-items: center;
+
+}
+nav ul li{
+    list-style-type: none;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    padding: 8px;
+}
+.hambu{
+    display: none;
+}
+.project-section{
+   display: flex; 
+   align-items: center;
+   justify-content: center;
+}
+.head{
+    text-align: center;
+    font-size: 40px;
+}
+.head2{
+    text-align: center;
+    font-size: 40px;
+}
+.footeri{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.name-1{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.brain{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.brain1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.heda{
+    font-size: 50px;
+}
+a:hover{
+    background-color: blue;
+    transition: 0.5s;
+}
+@media screen and (min-width:0px) and (max-width:480px){
+    body{
+        <div class="hambu"><img src="hambrger.png" alt="" width="30px"></div>
+
+    }
+    .hambu{
+        display: block;
+        margin: -10px;
+        cursor: pointer;
+    }
+    .list1{
+        display: none;
+    }
+.project-section{
+    display: flex;
+    flex-direction: column;
+}
+.name-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+}
+.name-2 h1{
+    font-size: 40px
+}
+.name-2 h2{
+    font-size: 25px;
+    text-align: center
+}
+.pc{
+    width: 80vw;
+}
+.brain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.brain1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logo,.logo1{
+    width: 200px;
+}
+
+}
